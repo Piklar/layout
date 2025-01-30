@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  height: 90%;
+  border: 3px solid #238000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #c7efc7;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #2000ff;
+  padding: 10px;
+}
+
+.header {
+  height: 15%;
+  background-color: #add8e6;
+}
+
+.header-left, .header-middle, .header-right {
+  flex: 1;
+  border: 5px solid #f78072;
+  background-color: #fcdab9;
+  margin: 0 5px;
+}
+
+.header-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-inner1 {
+  flex: 1;
+  border: 5px solid #f41415;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  background-color: #fac0cb;
+}
+
+.header-inner2 {
+  flex: 1;
+  border: 5px solid #f41415;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  background-color: #fac0cb;
+}
+
+.main {
+  height: 60%;
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.main-left {
+  flex: 1;
+  border: 5px solid #a52a2a;
+  margin: 0 5px;
+  background-color: #fabbbb;
+}
+
+.main-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-top, .right-bottom {
+  flex: 1;
+  border: 5px solid #a52a2a;
+  background-color: #fabbbb;
+}
+
+.right-top {
+  margin-bottom: 4.5px;
+}
+
+.right-bottom {
+  margin-top: 4.5px;
+}
+
+.footer {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  background-color: #add8e6;
+}
+
+.footer-item {
+  flex: 1;
+  border: 5px solid #6a5acd;
+  margin: 0 5px;
+  height: 100%;
+  background-color: #e2deff;
+}
+
+.footer-middle {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.footer-center1 {
+  flex: 1;
+  border: 5px solid #f78072;
+  background-color: #fcdab9;
+  margin-right: 4.5px;
+  height: 9.2vh;
+}
+
+.footer-center2 {
+  flex: 1;
+  border: 5px solid #f78072;
+  background-color: #fcdab9;
+  margin-left: 4.5px;
+  height: 9.2vh;
+}
+
+.details {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  margin-top: 5px;
+}
